@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "compatibilityLevel": "JAVA_8",
+  "package": "com.Mirai.mixin.mixins.mixin",
+  "refmap": "mixins.Mirai.refmap.json",
+  "mixins": [
+    "MinecraftMixin",
+    "NetworkManagerMixin",
+    "TimerMixin"
+  ],
+  "client": [
+    "EntityPlayerSPMixin"
+  ]
+}
